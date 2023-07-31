@@ -119,8 +119,8 @@ USE_TZ = True
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = "static/"
-STATICFILES_DIR = [
-    os.path.join(BASE_DIR, '/btre/static')
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'btre/static')
 ]
 
 # Default primary key field type
